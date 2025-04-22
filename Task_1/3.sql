@@ -1,3 +1,4 @@
+--группировка по датам
 SELECT
   DATE(transaction_date) AS day,
   COUNT(*) AS transaction_count,
